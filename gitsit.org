@@ -15,6 +15,7 @@ Creator of Linux and Git
 ** Git
 *** What is it
 *Distributed* Source Code / Version Control Management System.
+Git is not a backup solution.
 *** Why learn it
 Besides being fun, Git is becoming a necessary skill.
 
@@ -23,15 +24,18 @@ will benefit from knowing how Git works.
 
 ** Brief Introduction
 *** Common Commands
+**** Do Work
 - Init
 - Clone
 - Status
 - Log
 - Add
 - Commit
+**** Experimentation
 - Branch
 - Checkout
 - Merge
+**** Collaboration
 - Pull
 - Push
 ** Init
