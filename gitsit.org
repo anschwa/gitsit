@@ -1,0 +1,90 @@
+#+OPTIONS: toc:nil
+
+title: How Git Works.
+author: Adam Schwartz
+date: 2014-01-14 18:06:07
+
+* A Mostly Correct and Surprisingly Accurate Introduction To Git.
+
+** Credits
+*** Git for Ages 4 And Up
+Taught by Michael Schwern. [[https://www.youtube.com/watch?v=1ffBJ4sVUb4][View Talk]]
+*** Linus Torvalds
+Creator of Linux and Git
+
+** Git
+*** What is it
+*Distributed* Source Code / Version Control Management System.
+*** Why learn it
+Besides being fun, Git is becoming a necessary skill
+GitHub, or any collaborative project would most likely benefit from using Git.
+
+** Brief Introduction
+*** Common Commands
+- Init
+- Clone
+- Status
+- Log
+- Add
+- Commit
+- Branch
+- Checkout
+- Merge
+- Pull
+- Push
+** Init
+=git init=
+
+Creates a new git repository in the current directory in =.git=
+
+** Clone
+=git clone url/or/path/to/git/repository=
+
+Copy a git repository from anywhere into a directory.
+
+** Status
+** Log
+** Diff
+
+** Add
+*** Staging Area / The Index
+
+** Commit
+- Every ID is unique (If the ID is the same, then all the 
+  previous content is also the same)
+- Every commit is unique
+*** Commit Object
+**** SHA Hash (ID)
+- Content
+- Author
+- Date
+- Log
+- Previous Commit
+*** Reference
+**** Head
+**** Master
+
+** Branch
+*** Feature 
+*** Master
+
+** Checkout
+
+** Tagging
+
+** Merge
+
+** Rebase
+
+** Remote
+
+** Fetch
+
+** Pull
+
+** Push
+
+** Resources
+*** Helpful Things
+- Pro Git
+*** Software
