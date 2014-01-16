@@ -16,8 +16,10 @@ Creator of Linux and Git
 *** What is it
 *Distributed* Source Code / Version Control Management System.
 *** Why learn it
-Besides being fun, Git is becoming a necessary skill
-GitHub, or any collaborative project would most likely benefit from using Git.
+Besides being fun, Git is becoming a necessary skill.
+
+Anyone who is interested in GitHub, or ever working on a collaborative project
+will benefit from knowing how Git works.
 
 ** Brief Introduction
 *** Common Commands
