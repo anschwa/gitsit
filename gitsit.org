@@ -82,9 +82,9 @@ It is a very fundamental and important concept in Git.
 - Previous Commit
 *** Reference
 **** Head
-The HEAD is a reference to where you are currently working in the repository.
+The =HEAD= is a reference to where you are currently working in the repository.
 **** Branch
-A "separate" part of your repository typically used to work on something (to add in later) without disturbing your previous work.
+A =branch= is a "separate" part of your repository typically used to work on something (to add in later) without disturbing your previous work.
 **** Tag
 Similar to a branch except it marks a certain point in your commit history that will not change.
 For Example: (v0.9, v1.6, v2.0)
@@ -95,14 +95,14 @@ For Example: (v0.9, v1.6, v2.0)
 Branches let you make changes to your files without "damaging" what you already have.
 In other words, branching is for when you want to modify or add to your project without messing with what you are currently working on.
 *** Master
-=Master= is the name of the "main" branch in your repository.
+Master is the name of the "main" branch in your repository.
 *** Feature
-=Feature= is an example branch name. In this branch we will add a /feature/ to our project and then =merge= it back into =master=
+Feature is an example branch name. In this branch we will add a /feature/ to our project and then =merge= it back into =master=
 
 ** Checkout
 =git checkout branchname= or =git checkout -b branchname=
 
-=Checkout= is the way you switch to another branch to work on.
+Checkout is the way you switch to another branch to work on.
 In the first command, you switch to a branch you have already created, and it the second example command,
 you crate a branch, then also switch to it.
 ** Tagging
