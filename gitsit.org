@@ -1,4 +1,4 @@
-#+OPTIONS: toc:nil
+#+OPTIONS: toc:nil H:6
 
 title: How Git Works.
 author: Adam Schwartz
@@ -122,13 +122,10 @@ Annotated tags can also be signed and verified with GPG.
 ** Rebase
 
 ** Remote
-
-** Fetch
-
-** Pull
-
-** Push
-
+- origin
+*** Fetch
+*** Pull
+*** Push
 ** Resources
 *** Reference / Tutorials
 - [[http://git-scm.com/book][Pro Git (Best)]]
