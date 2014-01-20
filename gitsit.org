@@ -41,7 +41,7 @@ will benefit from knowing how Git works.
 ** Init
 =git init=
 
-Creates a new git repository in the current directory in =.git=
+Creates a new Git repository in the current directory inside =.git=
 
 ** Clone
 =git clone url/or/path/to/git/repository=
@@ -51,7 +51,7 @@ Copy a git repository from anywhere into a directory.
 ** Status
 =git status=
 
-Lists what branch you have checked out, and helpful information about your files / the staging area. 
+Lists what branch you have checked out, and other helpful information about your files / the staging area. 
 ** Log
 =git log --decorate --graph=
 
@@ -103,8 +103,8 @@ Feature is an example branch name. In this branch we will add a /feature/ to our
 =git checkout branchname= or =git checkout -b branchname=
 
 Checkout is the way you switch to another branch to work on.
-In the first command, you switch to a branch you have already created, and it the second example command,
-you crate a branch, then also switch to it.
+In the first command, you switch to a branch you have already created, and in the second example command,
+you crate a branch then switch to it.
 ** Tagging
 - lightweight tag
 =git tag tagname=
@@ -114,7 +114,7 @@ This creates a reference to the current (where the =HEAD= is) position in the re
 - annotated tag
 =git tag -a tagname=
 
-An annotated tag will be stored as full objects in the Git database and will contain similar information as a commit.
+An annotated tag will be stored as a full object in the Git database and will contain similar information as a commit.
 Annotated tags can also be signed and verified with GPG.
 
 ** Merge
