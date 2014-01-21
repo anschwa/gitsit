@@ -109,7 +109,7 @@ you crate a branch then switch to it.
 - lightweight tag
 =git tag tagname=
 
-This creates a reference to the current (where the =HEAD= is) position in the repository that will *not* change.
+This creates a reference to the current (where the =HEAD= is) position in the repository that will not change.
 
 - annotated tag
 =git tag -a tagname=
@@ -123,14 +123,30 @@ Annotated tags can also be signed and verified with GPG.
 This command will merge the =feature= branch into the =master= branch. 
 Note: We currently have =master= checked-out.
 
-If you are working on a specific branch for a long time, then it would make sense to =merge= the 
+If you are working on a specific =branch= for a long time, then it would make sense to =merge= the 
 latest =master= branch into =feature= first. This is done to ensure everything still works with the 
 addition of your new =feature= before you =merge= it back into =master=.
+
+**** Fast-forward
+A fast-forward is a common type of =merge=, where the only changes to the =branch= are made 
+"outside" or "ahead" of the current =branch=. 
+Another example would be if you have not worked on =master= after checking out =feature=.
+In other words, a fast-forward is a /linear/ =merge=.
 ** Rebase
+It is basically a fancy =merge=.
+
 Rebasing allows you to modify the appearance of your commit history. 
 If you ever hear about "re-writing history", this is what that is generally referring to. 
 Rebasing is a very powerful tool, but we will only look at one example. 
+
+In our example, we use a =rebase= to /linearize/ our commit history so that it is much more readable.
+This is very useful after working on =master= at the same time as =feature=. 
+Rebasing can also be used to reorder or combine (squash) multiple commits.
+
+Warning: You should *never* =rebase= /after/ pushing to a remote repository.
+However, it is encouraged to do so /before/ a =push=.
 ** Remote
+*** Adding a Remote
 - origin
 *** Fetch
 *** Pull
