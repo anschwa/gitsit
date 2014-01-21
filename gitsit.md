@@ -178,6 +178,15 @@ Annotated tags can also be signed and verified with GPG.
 
 ## Merge
 
+`git merge feature`
+
+This command will merge the `feature` branch into the `master` branch. 
+Note: We currently have `master` checked-out.
+
+If you are working on a specific branch for a long time, then it would make sense to `merge` the 
+latest `master` branch into `feature` first. This is done to ensure everything still works with the 
+addition of your new `feature` before you `merge` it back into `master`.
+
 ## Rebase
 
 ## Remote
