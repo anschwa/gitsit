@@ -1,6 +1,6 @@
 title: How Git Works.
 author: Adam Schwartz
-date: 2014-01-14 18:06:07
+date: 2014-01-21 21:59:58
 
 # A Mostly Correct and Surprisingly Accurate Introduction To Git.
 
@@ -140,7 +140,7 @@ For Example: (v0.9, v1.6, v2.0)
 
 ## Branch
 
-`git branch branchname`
+`git branch branch_name`
 
 Branches let you make changes to your files without "damaging" what you already have.
 In other words, branching is for when you want to modify or add to your project without messing with what you are currently working on.
@@ -165,13 +165,13 @@ you crate a branch then switch to it.
 
 -   lightweight tag
 
-`git tag tagname`
+`git tag tag_name`
 
 This creates a reference to the current (where the `HEAD` is) position in the repository that will not change.
 
 -   annotated tag
 
-`git tag -a tagname`
+`git tag -a tag_name`
 
 An annotated tag will be stored as a full object in the Git database and will contain similar information as a commit.
 Annotated tags can also be signed and verified with GPG.
@@ -213,13 +213,46 @@ However, it is encouraged to do so *before* a `push`.
 
 ### Adding a Remote
 
--   origin
+`git remote add origin url/or/path/to/git/repository`
+
+This command adds a `remote` repository to your Git project.
+`origin` is the simply the name you are giving to it.
+
+In all the `remote` commands we will use, the first argument is the remote branch name, 
+and the second one is the local branch name.
+
+Note: It is common to have multiple remote-repositories. To view all remotes, use the command, `git remote -v`.
 
 ### Fetch
 
+`git fetch remote_name`
+
+When you `fetch` a remote-repository, you are simply retrieving 
+the latest commits from that it. This will not result in a new commit in your local repository.
+
+This is a great way to try and avoid conflicts.
+After you are satisfied with the new changes, you simply merge the `remote_name` with one of your local branches.
+
 ### Pull
 
+`git pull origin master`
+
+A `pull` is just a `fetch` and `merge` combined into one command. This is mostly used when you have 
+not made any changes to your local `branch` .
+Or, if you are confident that your commits will not be affected by changes on the `remote`.
+
 ### Push
+
+`git push origin master`
+
+This is how you "send" or "share" your work with a remote-repository.
+Typically, this is where other people will `pull` from, in order to get your latest changes.
+
+If `origin` is a GitHub repository, then you will be prompted for your GitHub username and password.
+Note: You can only `push` to somewhere that you have write access to.
+
+You can think about a `push` as being a `commit` that is added to a copy of your repository 
+(instead of your local one).
 
 ## Resources
 
