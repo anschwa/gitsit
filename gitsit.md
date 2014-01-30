@@ -282,11 +282,15 @@ You can think about a `push` as being a `commit` that is added to a copy of your
 
 -   Git K (Included with Git)
 
+-   [UnGit](https://github.com/FredrikNoren/ungit)
+
 #### Linux
 
 -   [Git-Cola](http://git-cola.github.io/)
 
 -   Git K (Included with Git)
+
+-   [UnGit](https://github.com/FredrikNoren/ungit)
 
 #### Windows
 
@@ -295,3 +299,5 @@ You can think about a `push` as being a `commit` that is added to a copy of your
 -   [GitHub for Windows](http://windows.github.com/)
 
 -   Git K (Included with Git)
+
+-   [UnGit](https://github.com/FredrikNoren/ungit)

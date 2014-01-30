@@ -195,10 +195,13 @@ You can think about a =push= as being a =commit= that is added to a copy of your
 - [[http://gitx.laullon.com/][Git X]]
 - [[http://mac.github.com/][GitHub for Mac]]
 - Git K (Included with Git)
+- [[https://github.com/FredrikNoren/ungit][UnGit]]
 **** Linux
 - [[http://git-cola.github.io/][Git-Cola]]
 - Git K (Included with Git)
+- [[https://github.com/FredrikNoren/ungit][UnGit]]
 **** Windows
 - [[http://git-cola.github.io/][Git-Cola]]
 - [[http://windows.github.com/][GitHub for Windows]]
 - Git K (Included with Git)
+- [[https://github.com/FredrikNoren/ungit][UnGit]]
