@@ -6,9 +6,11 @@
 * Credits
 ** Git for Ages 4 And Up
 Taught by Michael Schwern.
+
 https://www.youtube.com/watch?v=1ffBJ4sVUb4
 ** Linus Torvalds
 Creator of Linux and Git
+
 https://www.youtube.com/watch?v=4XpnKHJAok8
 * Git
 ** What is it
