@@ -1,17 +1,17 @@
+#+TITLE: A Mostly Correct Introduction To Git
+#+AUTHOR: Adam Schwartz
+#+DATE: 2014-01-21
 #+OPTIONS: toc:nil H:6
 
-title: How Git Works.
-author: Adam Schwartz
-date: 2014-01-21 21:59:58
-
-* A Mostly Correct and Surprisingly Accurate Introduction To Git.
+* A Mostly Correct Introduction To Git
 
 ** Credits
 *** Git for Ages 4 And Up
 Taught by Michael Schwern.
+https://www.youtube.com/watch?v=1ffBJ4sVUb4
 *** Linus Torvalds
 Creator of Linux and Git
-
+https://www.youtube.com/watch?v=4XpnKHJAok8
 ** Git
 *** What is it
 - *Distributed* Source Code / Version Control Management System.
